@@ -22,3 +22,5 @@ Este projeto é um site simples de vagas de emprego chamado "Brasil Empregos", c
 4. Clique em uma vaga para ver informações detalhadas em um modal.
 
 **Observação:** Este é um exemplo básico de site e pode não estar totalmente funcional sem desenvolvimento adicional.
+
+Link: https://brasil-empregos.vercel.app
