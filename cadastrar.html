@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleSlides.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-ChzDzmAAZJA<ctrl61>wKcA5MXe5FPS+CyUfK<ctrl61>q6wYeJVwZg3rLWA5TGmZvgnsLKBOnX2A9tI+O4NRhkevHq/M9M"   
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Brasil Empregos</title>
+
+
+
+</head>
+
+<body style="height: 97vh">
+
+    <header>
+
+        <nav>
+            <ul>
+                <img src="img/bandeiraicone.png" alt="" style="margin-left: 17px;margin-right: 12px;height: 25px;">
+                <li> <a href="/index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cadastrar.html" class="active">Anunciar</a></li>
+                <li><a href="depoimentos.html">Depoimentos</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+            </ul>
+        </nav>
+
+        <div class="containertitulo">
+            <h1>Anunciar Vagas</h1>
+        </div>
+
+    </header>
+
+    <main>
+
+
+
+
+
+
+
+        <section>
+            <div class="item-resultado1">
+                <div class="login-container">
+        
+                 <form>
+                    <div class="input-group">
+                        <input id="cargo" type="text" placeholder="Cargo" required>
+                    </div>
+                    <div class="input-group">
+                        <input id="empresa" type="text" placeholder="Empresa" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="responsabilidade" placeholder="Responsabilidades" required=""
+                            class="caixartexto"></textarea>
+                    </div>
+                    <div style="height: 10px;">
+
+                    </div>
+                    <div class="input-group">
+                        <textarea id="requisito" placeholder="Requisitos" required="" class="caixartexto"></textarea>
+                    </div>
+                    <div style="height: 10px;">
+
+                    </div>
+                    <div class="input-group">
+                        <textarea id="beneficios" placeholder="Benefícios" required="" class="caixartexto"></textarea>
+                    </div>
+                    <div style="height: 10px;">
+
+                    </div>
+                    <div class="input-group select-wrapper">                 
+                        <select name="estado" required class="caixartexto">
+                            
+                            <option value="">Selecione o estado</option>
+                            <option value="Acre-AC">Acre</option>
+                            <option value="Alagoas-AL">Alagoas</option>
+                            <option value="Amapá-AP">Amapá</option>
+                            <option value="Amazonas-AM">Amazonas</option>
+                            <option value="Bahia-BA">Bahia</option>
+                            <option value="Ceará-CE">Ceará</option>
+                            <option value="Distrito Federal-DF">Distrito Federal</option>
+                            <option value="Espírito Santo-ES">Espírito Santo</option>
+                            <option value="Goiás-GO">Goiás</option>
+                            <option value="Maranhão-MA">Maranhão</option>
+                            <option value="Mato Grosso-MT">Mato Grosso</option>
+                            <option value="Mato Grosso do Sul-MS">Mato Grosso do Sul</option>
+                            <option value="Minas Gerais-MG">Minas Gerais</option>
+                            <option value="Pará-PA">Pará</option>
+                            <option value="Paraíba-PB">Paraíba</option>
+                            <option value="Paraná-PR">Paraná</option>
+                            <option value="Pernambuco-PE">Pernambuco</option>
+                            <option value="Piauí-PI">Piauí</option>
+                            <option value="Rio de Janeiro-RJ">Rio de Janeiro</option>
+                            <option value="Rio Grande do Norte-RN">Rio Grande do Norte</option>
+                            <option value="Rio Grande do Sul-RS">Rio Grande do Sul</option>
+                            <option value="Rondônia-RO">Rondônia</option>
+                            <option value="Roraima-RR">Roraima</option>
+                            <option value="Santa Catarina-SC">Santa Catarina</option>
+                            <option value="São Paulo-SP">São Paulo</option>
+                            <option value="Sergipe-SE">Sergipe</option>
+                            <option value="Tocantins-TO">Tocantins</option>
+                        </select>
+                    </div>
+                    <div style="height: 10px;">
+
+                    </div>
+                    <div class="containervalor">
+                        <input id="contato" type="text" placeholder="Contato" required="" style="width: 50%;">
+                        <input id="valor" type="text" placeholder="Valor" required="" style="width: 50%;">
+                    </div>
+
+                    <button class="button2" onclick="Cadastrar()" style="width: 100%;height: 54px;">Cadastrar</button>
+                </form>
+            </div>
+
+
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <p>2024 - Brasil empregos. Todos os direito reservados</p>
+
+        <div class="social-icons"><a href="https://github.com/eltonricardogoncalves" target="_blank" rel="noopener"><i class="fab fa-github"></i></a><a href="mailto:eltonricardogoncalves@hotmail.com" target="_blank" rel="noopener"><i class="fa-solid fa-envelope"></i></a><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a><a href="https://wa.me/+5511970774914" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a><a href="https://discord.gg/eltonricardo0084" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a></div>
+    </footer>
+
+
+    <script src="dados.js"></script>
+
+    <script src="app.js"></script>
+
+    <!-- <script src="scriptSlides.js"></script> -->
+</body>
+
+</html>
